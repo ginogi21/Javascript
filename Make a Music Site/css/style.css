@@ -14,15 +14,17 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  overflow: hidden;
 }
 
 .navbar{
-  width: 88%;
-  margin: auto;
-  padding: 15px 0;
+  width: 100%;
+  background-color: rgba(245, 245, 220, 0.4);
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content:space-between;
+  position: fixed;
 }
 
 .logo{
@@ -38,7 +40,7 @@
 
 .navbar ul li a{
   text-decoration: none;
-  color: #fff;
+  color: #000;
   transition: all 0.5s;
 }
 
@@ -52,7 +54,8 @@
 .content{
   width: 100%;
   position: absolute;
-  top: 30%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .left-col{
