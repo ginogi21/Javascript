@@ -1,7 +1,0 @@
-git remote add origin https://github.com/ginogi21/Javascript.git
-git branch -M main
-git push -u origin main
-
-
-<git 명령어>
-https://hackmd.io/@oW_dDxdsRoSpl0M64Tfg2g/ByfwpNJ-K
